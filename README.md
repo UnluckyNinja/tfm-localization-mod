@@ -1,5 +1,5 @@
 # TFM LocalizationMod
-A mod for *TFM: The First Men*.  
+A mod for [*TFM: The First Men*](https://store.steampowered.com/app/700820/).  
 This mod provide a workaround fix to translation display issues in characters's crafting panel.  
 It can also extracting or importing translations.
 
