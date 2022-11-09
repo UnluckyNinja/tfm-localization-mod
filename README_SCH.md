@@ -22,9 +22,11 @@
 当游戏更新时，你可以据此将最新的英文文本整合进已翻译的文本中。
 
 ## 注入翻译文本 (玩家用)
+Release里的langs_zh_xxxx是我添加的翻译，不定期更新
 1. 把翻译放入MOD文件夹，结构应为 "<game_root>/BepInEx/plugins/LocalizationMod/langs/\*/\*.json" 
 2. 结构与文件名需要与导出时一致，只是顶层文件夹从“extracted”变为“langs”
 3. 读取本地翻译时，游戏启动时间可能会长一点。
+
 
 ## Develop locally
 0. 设置好 dotNET 开发环境.

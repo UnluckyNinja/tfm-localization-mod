@@ -1,4 +1,6 @@
 # TFM LocalizationMod
+[中文说明](./README_SCH.md)
+
 A mod for [*TFM: The First Men*](https://store.steampowered.com/app/700820/).  
 This mod provide a workaround fix to translation display issues in characters's crafting panel.  
 It can also extracting or importing translations.
@@ -6,7 +8,7 @@ It can also extracting or importing translations.
 ## Install
 1. Download and install [BepInEx](https://github.com/BepInEx/BepInEx/releases/latest)
 2. Run the game once to generate relating folders, close.
-3. Download this plugin from releases at right and unzip it to "<game_root>/BepInEx/plugins", the folder structure should be "<game_root>/BepInEx/plugins/LocalizationMod/LocalizationMod.dll".
+3. Download this plugin from 「Releases](https://github.com/UnluckyNinja/tfm-localization-mod/releases/latest) at right and unzip it to "<game_root>/BepInEx/plugins", the folder structure should be "<game_root>/BepInEx/plugins/LocalizationMod/LocalizationMod.dll".
 4. Run the game.
 
 ## Extract built-in text and translations (for translators)
