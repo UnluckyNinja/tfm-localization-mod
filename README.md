@@ -17,12 +17,17 @@ It can also extracting or importing translations.
   You can enable BepInEx's console window for logging information.
 4. The extracted files will reside in "<game_root>/BepInEx/plugins/LocalizationMod/extracted"
 
+### Bonus: Merge translated text into English text for further translation 
+Check out https://observablehq.com/d/868f3531598e4d2e, and follow instructions.
+You can do it when the game updated to merge latest untranslated text.
+
 ## Import custom translations files (for players)
 1. Put translations in "<game_root>/BepInEx/plugins/LocalizationMod/langs" 
 2. Its path should be exactly the same as when it was extracted, but in "langs" folder rather than "extracted".
 3. The game will have a little longer loading time as injecting translations from disk.
 
 ## Develop locally
+0. Setup development environment for dotNET.
 1. Clone this project.
 2. Go the game's folder, copy "Assembly-CSharp.dll" to "lib" folder in the project folder
 3. Choose your favorite editor and IDE, type `> dotnet build` to compile it to DLL.

@@ -72,11 +72,16 @@ namespace LocalizationMod
     ){
 
       var pluginFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-      var outputFile = Path.Combine(pluginFolder, path, filenameWithExtension);
+      var outputFolder = Path.Combine(pluginFolder, path);
+      var outputFile = Path.Combine(outputFolder, filenameWithExtension);
 
-      Plugin.Log.LogDebug($"Writing {outputFile}/{filenameWithExtension}");
+      Plugin.Log.LogDebug($"Writing {Path.Combine(path, filenameWithExtension)}");
 
-      // with this no need to create file if file doesn't exist
+      if (!Directory.Exists(outputFolder)){
+        Directory.CreateDirectory(outputFolder);
+      }
+
+      // seems it can only create the file but not the directory 
       File.WriteAllText(outputFile, content);
     }
   }
