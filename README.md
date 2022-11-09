@@ -6,7 +6,7 @@ It can also extracting or importing translations.
 ## Install
 1. Download and install [BepInEx](https://github.com/BepInEx/BepInEx/releases/latest)
 2. Run the game once to generate relating folders, close.
-3. Download this plugin from releases at right and unzip it to "<game_root>/BepInEx/plugins"
+3. Download this plugin from releases at right and unzip it to "<game_root>/BepInEx/plugins", the folder structure should be "<game_root>/BepInEx/plugins/LocalizationMod/LocalizationMod.dll".
 4. Run the game.
 
 ## Extract built-in text and translations (for translators)
@@ -29,5 +29,5 @@ You can do it when the game updated to merge latest untranslated text.
 ## Develop locally
 0. Setup development environment for dotNET.
 1. Clone this project.
-2. Go the game's folder, copy "Assembly-CSharp.dll" to "lib" folder in the project folder
+2. Go the game's folder, copy "tfm_Data/Managed/Assembly-CSharp.dll" to "lib" folder in the project folder
 3. Choose your favorite editor and IDE, type `> dotnet build` to compile it to DLL.
